@@ -64,10 +64,6 @@ ATpProg1Character::ATpProg1Character()
     // Desactiva la rotacion automatica de la camara basada en el movimiento del personaje
     FollowCamera->bUsePawnControlRotation = false;
 
-    // Setear variables de velocidad
-    bFastSpeed = false;
-    NormalSpeed = 500.0f;
-    FastSpeed = 1000.0f;
 }
 
 // ===================== INPUT =====================

@@ -57,17 +57,6 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Input")
 	UInputAction* AgrandarAction;
 
-	// Booleano que indica si el personaje va a velocidad rapida, solo lectura en blueprint
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Speed")
-	bool bFastSpeed;
-
-	// Velocidad normal del personaje, editable y modificable en blueprint
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Speed")
-	float NormalSpeed;
-
-	// Velocidad rapida del personaje, editable y modificable en blueprint
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Speed")
-	float FastSpeed;
 
 public:
 	ATpProg1Character();// Constructor de la clase
